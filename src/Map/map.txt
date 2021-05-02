@@ -1,0 +1,11 @@
+Map format :
+
+ Chunk : {16m*16m}
+ -global absolute height
+ {0m(=-100m with relative); 8000m;prec:<100m
+ }
+ -points[8][8] : 16 bits
+  -relative height : (11 bits)
+  {-100m; +100m; prec: <10cm
+   n=2000=11bits}
+  -material {terrain, water, path, road, stone, ...}
